@@ -1,0 +1,41 @@
+*{padding: 0;margin: 0;}
+.paddingTB{
+	padding-top: 50px;
+	padding-bottom: 50px; }
+.container-fluid{
+	padding-left: 0; 
+	padding-right: 0;
+	}
+.footerBg{
+	background-color: #e3f8e0;}
+.footerBg h3{
+	color: solid black; 
+	text-align: center;
+	font-size: 1rem;
+}
+.paddingT{
+	padding-top: 50px;
+}
+.centrar{ 
+	text-align: center;
+ }
+}
+
+
+/* vista desktop */
+@media only  screen and (min-width: 1024px){  
+.navbar-expand-lg .navbar-collapse{
+	justify-content: flex-end;	
+}
+.footerFlex{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+}
+
+
+/* vista mobile */
+@media only screen and (max-width 767px){
+}
